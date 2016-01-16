@@ -2,6 +2,8 @@
 
 Our center at Central Library is very different with our center at YIH. The most notable different is the presence of PC Booking System. Student have to book a computer first before they can use it. They can book a computer using a PC provided near the supervisor desk.
 
+The first thing to do when a PC in CL broke down is to block it in the PC Booking System.
+
 ## Blocking a computer through PC Booking System
 
 There is a way for us to block a particular computer. If a computer is having a problem, we can block the computer to prevent user to book that computer. To do that, go to the PC Booking System, or alternatively, you can do this on your computer also by going to [http://172.16.15.79/nusweb/](http://172.16.15.79/nusweb/). 

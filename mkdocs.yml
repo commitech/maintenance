@@ -2,5 +2,6 @@ site_name: PC Maintenance Guide
 pages:
     - [index.md, Welcome]
     - [booking.md, PC Booking System]
+    - [fse.md, FSE (Frequently Solved Errors)]
     - [scripts.md, Scripts]
 theme: readthedocs
