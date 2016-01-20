@@ -30,5 +30,5 @@ If the first one doesn't work:
 Right click on spooler, stop  
 open C:/windows/system32/spool  
 delete SERVER, DRIVER, PRINTER(permanently by using shift+delete)  
-restart the spooler service
+restart the spooler service  
 try installing the printer again
