@@ -41,5 +41,9 @@ To install the script, login using admin account and open "Task Scheduler". Clic
 
 After that, a new window will appear. Click "Change User or Group" button. In the "Enter the object name to select" text area, enter the admin account of the computer (i.e. "unotadmin" for CL and "PCADMINYIH" for YIH). Choose the "Run whether user is logged on or not" radio button. Click "OK". You may prompted to enter the admin account, so enter it and click OK.
 
+## Auto update
+
+We want to change the automatic updates settings from the default. To do this, login with admin account. Run "gpedit.msc". Click "Computer Configuration", "Administrative Templates", "Windows Components", "Windows Update". In the choices on the right, choose "Configure Automatic Updates". There will be a new popup window. In the radio button on the left, click "Enabled" and choose the 2nd option "Notify for download and notify for install" in the "Configure automatic updating" option. Click OK.
+
 
 
