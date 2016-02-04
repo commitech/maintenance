@@ -27,8 +27,14 @@ Right click on spooler, restart
 try connecting the printer again
 
 If the first one doesn't work:  
-Right click on spooler, stop  
-open C:/windows/system32/spool  
-delete SERVER, DRIVER, PRINTER(permanently by using shift+delete)  
-restart the spooler service  
-try installing the printer again
+1. Open Registry Editor, making sure that you have administrator rights.
+2. Expand HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Environments\Architecture\Drivers\Version-3
+3. Delete any subkeys for printer drivers that have been installed.
+4. Expand HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Print\Printers
+5. Delete any subkeys that reference any network printers.
+6. Close Registry Editor
+7. Go to Windows\System32\Spool and delete everything in the following folders
+  1. Prtprocs\x64
+  2. Servers
+  3. Printers
+8.      Restart the Print Spooler services
